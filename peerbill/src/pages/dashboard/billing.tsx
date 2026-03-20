@@ -255,7 +255,6 @@ export default function BillingPage() {
 
     try {
       await createLedgerMutation.mutateAsync({
-        data: {
           clientId: data.clientId,
           profileId: user.id,
           house: house?.name || data.houseId,
