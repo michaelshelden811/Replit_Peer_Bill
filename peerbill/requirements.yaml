@@ -1,0 +1,16 @@
+packages:
+  "react-hook-form": "Form state management"
+  "@hookform/resolvers": "Zod resolver for react-hook-form"
+  "date-fns": "Date formatting for ledger and records"
+  "framer-motion": "Animations and transitions for premium feel"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to safely merge Tailwind classes without style conflicts"
+
+images:
+  - path: "artifacts/peerbill/public/images/auth-bg.png"
+    description: "A soft, abstract gradient mesh background in very light blue, slate, and white with elegant subtle curves, professional and calming medical technology feel"
+    aspect_ratio: "16:9"
+
+notes:
+  - using local storage for lightweight auth session as requested
+  - generated api hooks imported from @workspace/api-client-react
